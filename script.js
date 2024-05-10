@@ -5,9 +5,9 @@ var img=document.querySelector("img");
 
 
 var wakeup=document.querySelector("#wakeup");
-
+  var count=0;
 wakeup.addEventListener("click", () => {
-    var count =0;
+    
 
     if (count === 0) {
         heading.innerHTML = "Good morning, little one! 🌅 Rise and shine! 🌟";
@@ -21,7 +21,7 @@ wakeup.addEventListener("click", () => {
 });
 
 sleep.addEventListener("click",()=>{
-    var count=0;
+   
     if(count===0){
     heading.innerHTML="😴✨ Sweet dreams, little one! 💤🌙"
     // img.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgLu_L20jdiWw_WGEbh5JrMgMkM1BteCkerF5pZOLEFw&s"
